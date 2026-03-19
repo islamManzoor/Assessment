@@ -1,0 +1,33 @@
+{
+  "name": "giphy-app-cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for Giphy React Application",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:trending": "cypress run --spec 'cypress/e2e/trending-gifs.cy.ts'",
+    "test:search": "cypress run --spec 'cypress/e2e/search-gifs.cy.ts'"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "testing",
+    "typescript",
+    "giphy"
+  ],
+  "author": "Muhammad Islam",
+  "license": "",
+  "devDependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "@types/node": "^25.5.0",
+    "cypress": "^15.12.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "typescript": "^5.9.3"
+  }
+}
