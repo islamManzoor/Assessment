@@ -162,9 +162,9 @@ npm --version
 
 ## 🚀 Installation
 
-1. **Extract the zip file** to your desired location
+1. **Clone the Repository** to your desired location
 
-2. **Navigate to the extracted test directory**:
+2. **Open the Assessment folder in clone repository**:
    ```bash
    cd cyprus_tests
    ```
